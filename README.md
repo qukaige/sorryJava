@@ -30,7 +30,11 @@ clone代码
     docker build -t sorry-java:v1.4 .
     docker run --rm -itd --name sorryjava -e QCLOUD_ENABLE=false  -p 8888:8888 sorry-java:v1.4
 
- 访问 http://localhost;8888   
+
+docker run --rm -itd --name sorryjava -e QCLOUD_ENABLE=false -v /home/sorry/sorryJava:/opt/site  -p 8888:8888 sorry-java:v1.4
+ 
+
+访问 http://localhost;8888   
 
 ### centos 
 
