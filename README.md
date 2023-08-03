@@ -1,4 +1,5 @@
 思路是参考[sorry](https://github.com/xtyxtyx/sorry)，原作是ruby写的，我就撸了个java 轮子，加了一点新功能，可以生成小一点的图片
+![c21df362cbe55dc07c6df0335c50fa3](https://github.com/qukaige/sorryJava/assets/30071305/e81ba25c-f798-4a51-9260-3c624e255bfa)
 
 优化点：
 * 重构首页，方便移动端和PC端访问
